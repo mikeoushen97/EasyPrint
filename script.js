@@ -58,3 +58,14 @@ bullets.forEach((bullet, index) => {
 
 // Отображение первого слайда при загрузке страницы
 showSlide(slideIndex);
+
+window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollPosition > 80) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
+    }
+});
