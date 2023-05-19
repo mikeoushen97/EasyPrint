@@ -22,6 +22,13 @@ input:focus {
     outline: none;
 }
 
+input:active,
+input:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
 [class*=__container] {
     max-width: 1170px;
     margin: 0 auto;
