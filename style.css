@@ -80,7 +80,7 @@ header ul {
 }
 
 .hero__container {
-    background-image: url(/images/hero-image.jpg);
+    background-image: url(images/hero-image.jpg);
     background-position: 50%;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -176,19 +176,19 @@ header ul {
 }
 
 .benefits__card:nth-child(1):hover {
-    background-image: url(/images/background_colorfull1.jpg);
+    background-image: url(images/background_colorfull1.jpg);
     background-size: 250px 100%;
     background-position: 50%;
 }
 
 .benefits__card:nth-child(2):hover {
-    background-image: url(/images/background_colorfull4.jpg);
+    background-image: url(images/background_colorfull4.jpg);
     background-size: 250px 100%;
     background-position: 50%;
 }
 
 .benefits__card:nth-child(3):hover {
-    background-image: url(/images/background_colorfull3.jpg);
+    background-image: url(images/background_colorfull3.jpg);
     background-size: 250px 100%;
     background-position: 50%;
 }
